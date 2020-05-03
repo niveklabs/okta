@@ -3,7 +3,7 @@
 [embedmd]:# (okta.tf)
 ```tf
 provider "okta" {
-  version = "3.1.1"
+  version = "3.2.0"
 
   api_token        = null
   backoff          = null

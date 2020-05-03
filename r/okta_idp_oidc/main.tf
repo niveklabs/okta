@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    okta = ">= 3.1.1"
+    okta = ">= 3.2.0"
   }
 }
 
