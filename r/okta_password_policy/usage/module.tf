@@ -1,0 +1,32 @@
+module "okta_password_policy" {
+  source = "./modules/okta/r/okta_password_policy"
+
+  auth_provider                  = null
+  description                    = null
+  email_recovery                 = null
+  groups_included                = []
+  name                           = null
+  password_auto_unlock_minutes   = null
+  password_dictionary_lookup     = null
+  password_exclude_first_name    = null
+  password_exclude_last_name     = null
+  password_exclude_username      = null
+  password_expire_warn_days      = null
+  password_history_count         = null
+  password_max_age_days          = null
+  password_max_lockout_attempts  = null
+  password_min_age_minutes       = null
+  password_min_length            = null
+  password_min_lowercase         = null
+  password_min_number            = null
+  password_min_symbol            = null
+  password_min_uppercase         = null
+  password_show_lockout_failures = null
+  priority                       = null
+  question_min_length            = null
+  question_recovery              = null
+  recovery_email_token           = null
+  skip_unlock                    = null
+  sms_recovery                   = null
+  status                         = null
+}

@@ -1,0 +1,32 @@
+module "okta_social_idp" {
+  source = "./modules/okta/r/okta_social_idp"
+
+  account_link_action          = null
+  account_link_group_include   = []
+  client_id                    = null
+  client_secret                = null
+  deprovisioned_action         = null
+  groups_action                = null
+  groups_assignment            = []
+  groups_attribute             = null
+  groups_filter                = []
+  issuer_mode                  = null
+  match_attribute              = null
+  match_type                   = null
+  max_clock_skew               = null
+  name                         = null
+  profile_master               = null
+  protocol_type                = null
+  provisioning_action          = null
+  request_signature_algorithm  = null
+  request_signature_scope      = null
+  response_signature_algorithm = null
+  response_signature_scope     = null
+  scopes                       = []
+  status                       = null
+  subject_match_attribute      = null
+  subject_match_type           = null
+  suspended_action             = null
+  type                         = null
+  username_template            = null
+}
