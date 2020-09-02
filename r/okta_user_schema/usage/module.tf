@@ -11,6 +11,8 @@ module "okta_user_schema" {
   enum = []
   # external_name - (optional) is a type of string
   external_name = null
+  # external_namespace - (optional) is a type of string
+  external_namespace = null
   # index - (required) is a type of string
   index = null
   # master - (optional) is a type of string

@@ -1,5 +1,5 @@
 provider "okta" {
-  version = "3.4.1"
+  version = "3.5.0"
 
   # api_token - (required) is a type of string
   api_token = null

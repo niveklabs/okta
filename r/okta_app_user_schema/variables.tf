@@ -33,6 +33,12 @@ variable "external_name" {
   default     = null
 }
 
+variable "external_namespace" {
+  description = "(optional) - Subschema external namespace"
+  type        = string
+  default     = null
+}
+
 variable "index" {
   description = "(required) - Subschema unique string identifier"
   type        = string
