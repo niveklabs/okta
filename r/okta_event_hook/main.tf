@@ -4,13 +4,12 @@ terraform {
   }
 }
 
-resource "okta_inline_hook" "this" {
+resource "okta_event_hook" "this" {
   auth    = var.auth
   channel = var.channel
+  events  = var.events
   name    = var.name
   status  = var.status
-  type    = var.type
-  version = var.version
 
   dynamic "headers" {
     for_each = var.headers

@@ -3,7 +3,7 @@
 [embedmd]:# (okta.tf)
 ```tf
 provider "okta" {
-  version = "3.3.0"
+  version = "3.4.0"
 
   # api_token - (required) is a type of string
   api_token = null
