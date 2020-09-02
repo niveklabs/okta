@@ -69,6 +69,12 @@ variable "password_history_count" {
   default     = null
 }
 
+variable "password_lockout_notification_channels" {
+  description = "(optional) - Notification channels to use to notify a user when their account has been locked."
+  type        = set(string)
+  default     = null
+}
+
 variable "password_max_age_days" {
   description = "(optional) - Length in days a password is valid before expiry: 0 = no limit."
   type        = number
